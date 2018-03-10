@@ -1,0 +1,41 @@
+{
+    "msg":"SUCCESS",
+    "data":{
+            "news":{
+                    "name":"",
+                    "iconurl":"",
+                    "desc":"本月花呗账单已还清"
+                    },
+            "small":{
+                     "name":"密码",
+                     "iconurl":""
+                     },
+            "big":{
+                   "name":"生活服务",
+                   "iconurl":""
+                   },
+            "list":[
+                    {
+                    "name":"惠支付",
+                    "title_left":"共优惠14元",
+                    "desc_left":"花呗便利店周卡",
+                    "icon_left":"",
+                    
+                    "title_right":"发红包赚赏金",
+                    "desc_right":"速瓜分10亿赏金",
+                    "icon_right":""
+                    },
+                    {
+                    "name":"生活服务",
+                    "title_left":"小功能大作用",
+                    "desc_left":"证件照在这随便拍",
+                    "icon_left":"",
+                    
+                    "title_right":"快要涨工资啦",
+                    "desc_right":"算算你能涨多少",
+                    "icon_right":""
+                    }
+                    ]
+        },
+    "code":200
+}

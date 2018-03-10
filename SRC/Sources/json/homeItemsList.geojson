@@ -1,0 +1,36 @@
+{
+    "msg":"",
+    "data":[
+            {
+            "name":"转账",
+            "iconurl":"fct_icon_29",
+            "pid":29
+            },
+            {
+            "name":"充值",
+            "iconurl":"fct_icon_8",
+            "pid":8
+            },
+            {
+            "name":"购物",
+            "iconurl":"fct_icon_11",
+            "pid":11
+            },
+            {
+            "name":"彩票",
+            "iconurl":"fct_icon_20",
+            "pid":20
+            },
+            {
+            "name":"物流",
+            "iconurl":"fct_icon_16",
+            "pid":16
+            },
+            {
+            "name":"旅行",
+            "iconurl":"fct_icon_3",
+            "pid":3
+            },
+            ],
+    "code":200
+}

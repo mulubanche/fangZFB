@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是有底线的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2em-co-AN8">
+                    <rect key="frame" x="144.5" y="27.5" width="86" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IeH-FN-FPE">
+                    <rect key="frame" x="0.0" y="0.0" width="1" height="72"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="1eU-cH-q4c"/>
+                        <constraint firstAttribute="height" constant="72" id="Gcy-TT-Zcc"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDu-t6-alk">
+                    <rect key="frame" x="250.5" y="35.5" width="109.5" height="1"/>
+                    <color key="backgroundColor" red="0.84995652528371368" green="0.84862787847419985" blue="0.87183602877875654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="CbY-s0-CFf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrJ-e5-fcw">
+                    <rect key="frame" x="15" y="35.5" width="109.5" height="1"/>
+                    <color key="backgroundColor" red="0.84995652528371368" green="0.84862787847419985" blue="0.87183602877875654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="550-SK-YPf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="IeH-FN-FPE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6vf-ua-AAk"/>
+                <constraint firstAttribute="bottom" secondItem="IeH-FN-FPE" secondAttribute="bottom" id="LFV-4P-uqw"/>
+                <constraint firstItem="IeH-FN-FPE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MKC-w9-0dK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dDu-t6-alk" secondAttribute="trailing" constant="15" id="Vl9-0Q-J3B"/>
+                <constraint firstItem="2em-co-AN8" firstAttribute="leading" secondItem="TrJ-e5-fcw" secondAttribute="trailing" constant="20" id="cHf-CK-aCp"/>
+                <constraint firstItem="dDu-t6-alk" firstAttribute="leading" secondItem="2em-co-AN8" secondAttribute="trailing" constant="20" id="czP-Er-DEp"/>
+                <constraint firstItem="TrJ-e5-fcw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="f40-Vp-H2v"/>
+                <constraint firstItem="2em-co-AN8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="l1H-Yp-cmJ"/>
+                <constraint firstItem="2em-co-AN8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="r4a-yh-Gd9"/>
+                <constraint firstItem="dDu-t6-alk" firstAttribute="centerY" secondItem="2em-co-AN8" secondAttribute="centerY" id="wCa-st-ppI"/>
+                <constraint firstItem="TrJ-e5-fcw" firstAttribute="centerY" secondItem="2em-co-AN8" secondAttribute="centerY" id="x46-mS-sxg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="51.5" y="55"/>
+        </view>
+    </objects>
+</document>
